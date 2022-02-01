@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <meta charset="UTF-8">
+        <title>Сервировка из дерева для ресторанов</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+    </head>
+        <body>
+            <section>
+                <header>
+                    <div class="container main-header">
+                        <div class="logo">
+                            <img src="images/MAX maker logo main.webp" alt="AnimalsChill">
+                        </div> 
+                        <div class="container-menu">
+                            <div class="phone">
+                                <img src="images/phone.svg" width="26" height="26" alt="">
+                                <p class="p-in-header"><a href="tel:+73952950610" aria-disabled="false">+7 (3952) 950-610</a></p>
+                            </div>
+                            <div class="dividing-strip">
+                                <hr>
+                            </div>
+                            <div class="menu">
+                                <div class="bar">
+                                    <nav id="desktop" class="default">
+                                        <ul>
+                                            <a href="index.html"><li>ресторанам</li></a>
+                                            <a href="gift_wrap.html"><li>подарочная упаковка</li></a>
+                                            <a href="to_order.html"><li>на заказ</li></a>
+                                            <a href="aboutus.html"><li>о нас</li></a>
+                                            <a href="faq.html"><li>FAQ</li></a>
+                                            <a href="contacts.html"><li>контакты</li></a>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div id="burg">
+                                        <a href="#">
+                                            <span class="bar" id="top"></span>
+                                            <span class="bar" id="middle"></span>
+                                            <span class="bar" id="bottom"></span>
+                                        </a>
+                                </div>
+                                <div class="mobile-tab">
+                                        <nav id="mobile">
+                                            <ul>
+                                                <li><a href="index.html">ресторанам</a></li>
+                                                <li><a href="gift_wrap.html">подарочная упаковка</a></li>
+                                                <li><a href="to_order.html">на заказ</a></li>
+                                                <li><a href="aboutus.html">о нас</a></li>
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="contacts.html">контакты</a></li>
+                                            </ul>
+                                        </nav>
+                                </div>
+                                <script language="JavaScript">$('.mobile-tab').hide();
+                                        $('#burg').on('click',function(){
+                                        $('.mobile-tab').slideToggle(1000);
+                                        })
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </section>
+            <section id="contacts" class="container">
+                <h2>Контакты</h2>
+                <div class="dividing-strip-contacts"><hr></div>
+                <div class="contacts-blocks">
+                    <div class="contacts-blocks__column">
+                        <h4 class="contacts-blocks__header-text">Мы находимся</h4>
+                        <p class="contacts-blocks__text">Россия, город Иркутск, ул.<br>Клары Цеткин, 9д</p>
+                    </div>
+                    <div class="contacts-blocks__column">
+                        <h4 class="contacts-blocks__header-text">Свяжитесь с нами</h4>
+                        <p class="contacts-blocks__text">Tel: +7(3952)950-610<br>
+                            What'sApp/Viber/Telegram:<br>
+                            +7-950-11-44-911<br>
+                            e-mail: max_maker@mail.ru</p>
+                    </div>
+                    <div class="contacts-blocks__column">
+                        <h4 class="contacts-blocks__header-text">Мы работаем</h3>
+                        <p class="contacts-blocks__text">Пн - Пт: 10:00 - 18:00<br>
+                            Сб - Вс: выходной</p>
+                    </div>
+                </div>
+            </section>
+            <section id="map-and-form" class="container">
+                <div class="map-and-form__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4882.231175357098!2d104.25312652605024!3d52.27760348338016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da824a4deeba759%3A0xc23fde2d0b449d36!2z0YPQuy4g0JrQu9Cw0YDRiyDQptC10YLQutC40L0sIDksINCY0YDQutGD0YLRgdC6LCDQmNGA0LrRg9GC0YHQutCw0Y8g0L7QsdC7LiwgNjY0MDM5!5e0!3m2!1sru!2sru!4v1643288438946!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="map-and-form__form-write-us">
+                    <h3>Форма обратной связи</h3>
+                    <input type="text" placeholder="Имя*" required>
+                    <input type="email" placeholder="Email*" required>
+                    <input type="tel" placeholder="Телефон">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Ваше сообщение"></textarea>
+                    <div class="allbutton"><p class="black-button"><a href="#">Отправить</a></p></div>
+                </div>
+            </section>
+            <section id = "instagram">
+                <div class = "container">
+                    <h2>Мы в instagram</h2>
+
+                    <div class="allbutton"><p class="black-button"><a href="#">Показать еще?</a></p></div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer">
+                    <div class="column listoftitles">
+                        <h3>Меню</h3>
+                        <div class="dividing-strip"><hr></div>
+                        <div class="column__content">
+                            <div><p><a href="index.html">Главная</a></p></div>
+                            <div><p><a href="conditions.html">Ресторанам</a></p></div>
+                            <div><p><a href="prices.html">Подарочная упаковка</a></p></div>
+                            <div><p><a href="workers.html">На заказ</a></p></div>
+                            <div><p><a href="reviews.html">О нас</a></p></div>
+                            <div><p><a href="reviews.html">FAQ</a></p></div>
+                            <div><p><a href="contacts.html">Контакты</a></p></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>Режим работы</h3>
+                        <div class="dividing-strip"><hr></div>
+                        <div class="column__content">
+                            <div>
+                                <img src="images/clock.svg" width="20" height="20" alt="">
+                                <p>Пн-Пт: 10:00 - 18:00<br>
+                                Сб-Вс: выходной</p>
+                            </div>
+                            <br>
+                            <div>
+                                <img src="images/pin.svg" width="20" height="20" alt="">
+                                <p>Россия, город Иркутск,<br>ул. Клары Цеткин, 9д</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>Контакты</h3>
+                        <div class="dividing-strip"><hr></div>
+                        <div class="column__content">
+                            <div>
+                                <img src="images/phone.svg" width="20" height="20" alt="">
+                                <p><a href="tel:+73952950610" aria-disabled="false">+7 (3952) 950-610</a></p>
+                            </div>
+                            <div>
+                                <img src="images/email.svg" width="20" height="20" alt="">
+                                <p><a href="mailto:max_maker@mail.ru" target="_self">max_maker@mail.ru</a></p>
+                            </div>
+                            <div>
+                                <img src="images/instagram.svg" width="20" height="20" alt="">
+                                <p><a href="https://www.instagram.com/maxmaker.ru/">@maxmaker</a></p>
+                            </div>
+                            <div>
+                                <img src="images/chat.png" width="20" height="20" alt="">
+                                <p>What'sApp/Viber/Telegram:<a href=#><br>+7-950-11-44-911</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+            <script src="owl-carousel/js/owl.carousel.js"></script>
+            <script>
+                $(function() {
+                    $(".slider-one").owlCarousel({
+                        nav:true,
+                        loop:true,
+                        margin:20,
+                        autoWidth:false,
+                        autoplay:true,
+                        autoplayTimeout:3000,
+                        autoplayHoverPause:true,
+                        navText: ['<i class="fas fa-angle-left" aria-hidden="true"></i>','<i class="fas fa-angle-right" aria-hidden="true"></i>'],
+                        // items: 1,
+                        responsive:{
+                            0:{
+                                items:1,
+                                margin:0,
+                            },
+                            600:{
+                                items:1
+                            },
+                            1000:{
+                                items:1,
+                                
+                            }
+                        }
+                    });
+            $(".slider-two").owlCarousel({
+                nav:true,
+                loop:true,
+                margin:20,
+                autoWidth:true,
+                autoplay:true,
+                autoplayTimeout:3000,
+                autoplayHoverPause:false,
+                navText: [
+                    '<svg width="35" height="35" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
+                    '<svg width="35" height="35" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'
+                ],
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
+        });
+        </script>
+    </body> 
+</html>
