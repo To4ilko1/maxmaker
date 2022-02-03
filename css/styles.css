@@ -523,35 +523,41 @@ div{
 #our-clients .container p{
     font-size: 16px;
 }
-#our-clients .form-write-us{
+#our-clients .form-write-us, #faq-write-us .form-write-us{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-between;
     margin: 2% 0;
 }
-#our-clients .form-write-us>.first-column{
+#our-clients .form-write-us{
+    margin: 2% 0;
+}
+#faq-write-us .form-write-us{
+    margin: 1% 0;
+}
+#our-clients .form-write-us>.first-column, #faq-write-us .form-write-us>.first-column{
     display: flex;
     flex-direction: column;
     width: 49%;
 }
-#our-clients .form-write-us>.second-column{
+#our-clients .form-write-us>.second-column, #faq-write-us .form-write-us>.second-column{
     width: 49%;
 }
-#our-clients .form-write-us>.first-column>input{
+#our-clients .form-write-us>.first-column>input, #faq-write-us .form-write-us>.first-column>input{
     width: 100%;
     margin-bottom: 2%;
 }
-#our-clients .form-write-us>.second-column>textarea{
+#our-clients .form-write-us>.second-column>textarea, #faq-write-us .form-write-us>.second-column>textarea{
     width: 100%;
 }
-#our-clients .allbutton{
+#our-clients .allbutton, #faq-write-us .allbutton{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-#our-clients .yellow-button a{
+#our-clients .yellow-button a, #faq-write-us .yellow-button a{
     padding: 7% 0;
     width: 170px;
     margin: 10% 0 0 0;
@@ -762,14 +768,103 @@ footer {
     flex-direction: row;
     justify-content: right;
 }
-.faq-blocks{
+
+.faq-blocks, .about-us-blocks{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.faq-blocks__column{
-    width: 50%;
+.faq-blocks__column, .about-us-blocks__column{
+    width: 48%;
 }
-
+.faq-blocks__vl {
+    border-left: 1px solid #292929;
+    height: 340px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 35%;
+}
+.faq-blocks__column h2{
+    text-align: left;
+    padding: 4% 0 2% 0;
+}
+.faq-blocks__column h3{
+    text-align: left;
+    padding: 0;
+    /* color: #292929; */
+    color: black;
+    font-weight: 500;
+}
+h3.pad{
+    padding-top: 2%;
+}
+.faq-blocks__column .with-padding{
+    padding: 1.5% 0;
+}
+.dividing-strip-faq{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.dividing-strip-faq>hr{
+    border: none;
+    border-top: 2px solid #292929;
+    width: 12%;
+    margin: 10px 0 20px 0;
+}
+.faq-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5% 0 0 0;
+}
+.faq-description p{
+    padding: 1% 0;
+}
+.faq-description p a{
+    text-decoration: none;
+    color:#1F2326;
+}
+.faq-description p a:hover{
+    color: black;
+    font-weight:bold;
+}
+#faq-write-us>p{
+    text-align: center;
+    padding-top:2%;
+}
+.dividing-strip-about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dividing-strip-about-us>hr{
+    border: none;
+    border-top: 2px solid #292929;
+    width: 12%;
+    margin: 10px 0 20px 0;
+}
+.about-us-blocks__column>p{
+    padding: 2% 0 4% 2%;
+}
+.about-us-blocks__column p.list{
+    padding: 1% 0 0 2%;
+}
+#about-us .allbutton{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.about-us-blocks__column .allbutton .yellow-button a{
+    padding: 7% 0;
+    width: 200px;
+    margin: 10% 0 0 0;
+}
+.p-welcome{
+    padding: 3% 0;
+}
 @media screen and (min-width: 769px){/*для бургера*/
 	.mobile-tab,#burg,#mobile{
 		display: none;
